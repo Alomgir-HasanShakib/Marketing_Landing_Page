@@ -99,10 +99,10 @@ export const InfiniteMovingCards: React.FC<Props> = ({
           images.map((image) => (
             <li
               key={image.src}
-              className="w-[200px] sm:w-[120px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[300px] flex items-center justify-center"
+              className="w-[200px] sm:w-[120px] max-w-full relative rounded-2xl flex-shrink-0 px-8 py-6 md:w-[200px] flex items-center justify-center"
               
             >
-              <Image src={image.src} width={200} height={50} alt={image.alt} className="rounded-lg"/>
+              <Image src={image.src} width={200} height={20} alt={image.alt} className="rounded-lg"/>
             </li>
           ))}
         {items?.map((item, idx) => (

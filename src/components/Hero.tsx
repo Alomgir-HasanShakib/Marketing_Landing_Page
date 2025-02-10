@@ -20,7 +20,7 @@ const Hero = () => {
               marketing strategy that drives real results—we make it happen.
               <span> Faster. Smarter. Better.</span>
             </p>
-            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-secondary bg-[linear-gradient(110deg,#235347,45%,#10B981,55%,#235347)] bg-[length:200%_100%] px-10 py-8 text-neutral transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-offset-2 focus:ring-offset-primary/40 uppercase text-2xl font-bold gap-4 hover:scale-95 hover:duration-300 hover:transition-all">
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-secondary bg-[linear-gradient(110deg,#235347,45%,#10B981,55%,#235347)] bg-[length:200%_100%] px-10 py-8 text-neutral transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-offset-2 focus:ring-offset-primary/40 uppercase text-xl md:text-2xl font-bold gap-4 hover:scale-95 hover:duration-300 hover:transition-all">
               Book A Free Call <ArrowRight className="size-6 "/>
             </button>
           </div>
