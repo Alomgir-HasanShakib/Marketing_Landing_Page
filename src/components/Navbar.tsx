@@ -64,7 +64,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className=" flex md:max-w-4xl  space-y-3 fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-neutral/50 rounded-2xl dark:bg-transparent backdrop-blur-md bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-4  items-center justify-center space-x-4 ">
+    <nav className=" flex md:max-w-4xl  space-y-3 fixed top-5 inset-x-0 mx-auto border border-transparent dark:border-neutral/50 rounded-2xl dark:bg-transparent backdrop-blur-md bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-4  items-center justify-center space-x-4 ">
       <div className=" flex justify-between items-center max-w-4xl w-full ">
         <ul className={`${getMenuClasses()} justify-between gap-10`}>
           {navItems.map((nav) => (
